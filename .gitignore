@@ -1,0 +1,34 @@
+# Qt Creator / CMake derleme çıktıları
+build/
+build-*/
+CMakeLists.txt.user*
+.qtcreator/
+.qtc_clangd/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*_autogen/
+
+# Derlenmiş dosyalar
+*.exe
+*.dll
+*.o
+*.obj
+*.a
+*.lib
+*.pdb
+*.manifest
+
+# Arşivler (dağıtım zip'i GitHub Releases'a yüklenir)
+*.zip
+*.rar
+*.7z
+
+# Editör / işletim sistemi dosyaları
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
+.DS_Store
